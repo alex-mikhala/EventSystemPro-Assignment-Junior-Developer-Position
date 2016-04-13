@@ -4,6 +4,9 @@
   $servername = "localhost";
   $username = "root";
   $password = "";
+  $givenName = "givenName";
+  $lastName = "lastName";
+  $email = "email";
   
   //connect
   $conn = new mysqli($severname, $username, $password);
@@ -19,6 +22,8 @@
   if($conn->query($mysql) === TRUE)
   {
     echo "Successfully made db";
+    
+    if()
   }else
   {
     echo "Error making db: " . $conn->error;
