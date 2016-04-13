@@ -1,7 +1,26 @@
 <?php
 
-  $mysql_host = "localhost";
-  $mysql_user = "root";
-  $mysql_pass = "";
+  //initialize
+  $servername = "localhost";
+  $username = "root";
+  $password = "";
+  
+  //connect
+  $conn = new mysqli($severname, $username, $password);
+  
+  //check connection
+  if($conn->connect_error)
+  {
+    die("Connect failure: . $conn->connect_error);
+  }
 
+  //make the database
+  $mysql = "CREATE DATABASE myDB"
+  if($conn->query($mysql) === TRUE)
+  {
+    echo "Successfully made db";
+  }else
+  {
+    echo "Error making db: " . $conn->error;
+  }
 ?>
