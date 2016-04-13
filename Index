@@ -15,8 +15,8 @@
 		<form method="placeholder" action = "server.php">
 		<div>
 			<!--Collect info from labels when submit button is pressed--!>
-			<p class="label">First Name:<input /></p>
-			<p class="label">Last Name:<input /></p>
+			<p class="label">Given Name:<input /></p>
+			<p class="label">Family Name:<input /></p>
 			<p class="label">Email Address:<input /></p>
 			<p><button type="submit"> Submit </button></p>
 		</div>
