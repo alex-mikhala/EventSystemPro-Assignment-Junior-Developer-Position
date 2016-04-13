@@ -4,4 +4,22 @@
 <!--this will hold the links to CSS/js files--!>
 <head>
 	
-<head>
+</head>
+
+<!--Actual website layout--!>
+<body>
+	<!--Website has a header as a label then the forms below--!>
+	<div>
+		<h1>Event System Pro. Form</h1>
+		
+		<form method="placeholder" action = "server.php">
+		<div>
+			<!--Collect info from labels when submit button is pressed--!>
+			<p class="label">First Name:<input /></p>
+			<p class="label">Last Name:<input /></p>
+			<p class="label">Email Address:<input /></p>
+			<p><button type="submit"> Submit </button></p>
+		</div>
+		</form>
+	</div>
+</body>
