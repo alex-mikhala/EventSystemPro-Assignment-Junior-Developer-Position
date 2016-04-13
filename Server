@@ -1,0 +1,21 @@
+<?php
+  session_start();
+  $givenName = $_POST["Given Name"];
+  $familyName = $_POST["Family Name"];
+  $email = $_POST["Email Address"];
+  
+  if(!empty($givenName) && !empty($familyName) && !empty($email))
+  {
+    //Add to the database, unless its already in there
+    
+    if(){}
+    else
+    {
+      echo mysql_error();
+    }
+  
+  }else{
+    
+  }
+
+?>
